@@ -18,3 +18,10 @@ func sub(num1: Int, num2: Int) -> Int{
 
 var sub1 = sub(6,num2: 4)
 print (sub1)
+
+func multiply(num1: Float, num2: Float) -> Float{
+    var result = num1 * num2
+    return result
+}
+
+print(multiply(5, num2: 6))
