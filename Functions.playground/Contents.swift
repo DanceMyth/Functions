@@ -9,19 +9,27 @@ func add(num1: Double, num2: Double) -> Double{
     return result
 }
 
-print (add(1.2, num2: 3.6))
+print (add(12, num2: 7))
 
 func sub(num1: Int, num2: Int) -> Int{
-    var result = num1 - num2
+    let result = num1 - num2
     return result
 }
 
-var sub1 = sub(6,num2: 4)
+var sub1 = sub(14,num2: 6)
 print (sub1)
 
 func multiply(num1: Float, num2: Float) -> Float{
-    var result = num1 * num2
+    let result = num1 * num2
     return result
 }
 
-print(multiply(5, num2: 6))
+print(multiply(10  , num2: 10))
+
+
+func divide(num1:Double,num2:Double) -> Double{
+   
+    return num1 / num2
+}
+
+print(divide(50, num2: 5))
